@@ -1,0 +1,15 @@
+[build]
+  base = ""
+  publish = "public/"
+  command = "npm run build"
+
+#[[redirects]]
+#  from = "https://kind-agnesi-dd5ea1.netlify.com/*"
+#  to = "https://timkeeler.net"
+#  status = 301
+#  force = true
+
+[context.production.environment]
+  NODE_VERSION = "12.16.1"
+  NPM_VERSION = "6.14.4"
+  NODE_ENV = "production"

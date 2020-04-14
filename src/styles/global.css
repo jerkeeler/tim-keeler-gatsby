@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.markdown > p {
+  @apply my-10;
+
+  &:first-child {
+    @apply mb-10 mt-0;
+  }
+
+  &:last-child {
+    @apply mb-0 mt-10;
+  }
+}
