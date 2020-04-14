@@ -24,10 +24,13 @@ const Contact = () => (
         data-netlify-recaptcha="true"
         action="/contact/success"
       >
-        <p className="hidden">
-          <label>Don’t fill this out if you're human:</label>
-          <input name="bot-field" />
-        </p>
+        <input
+          className="hidden"
+          type="hidden"
+          name="form-name"
+          value="contact"
+        />
+        <input className="hidden" name="bot-field" />
         <FormGroup>
           <Label name="name">Name:</Label>
           <Input name="name" placeholder="Jane Doe" type="text" required />
