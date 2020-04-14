@@ -4,6 +4,7 @@ import Img from 'gatsby-image';
 
 import Content from '../components/Content';
 import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 
 const About = () => {
   const data = useStaticQuery(graphql`
@@ -25,6 +26,7 @@ const About = () => {
 
   return (
     <Layout title="About">
+      <SEO title="About" />
       <Content>
         <div className="flex md:inline justify-center">
           <Img
