@@ -17,15 +17,9 @@ const Navbar = () => (
       <NavItem url="/">TK</NavItem>
     </ul>
     <ul className="flex">
-      <NavItem url="/about/" icon="info">
-        About
-      </NavItem>
-      <NavItem url="/media/" icon="volume">
-        Media
-      </NavItem>
-      <NavItem url="/contact/" icon="chat">
-        Contact
-      </NavItem>
+      <NavItem url="/about/">About</NavItem>
+      <NavItem url="/media/">Media</NavItem>
+      <NavItem url="/contact/">Contact</NavItem>
     </ul>
   </nav>
 );
