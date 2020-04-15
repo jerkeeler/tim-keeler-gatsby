@@ -3,11 +3,11 @@
   publish = "public/"
   command = "npm run build"
 
-#[[redirects]]
-#  from = "https://festive-mirzakhani-8474d8.netlify.com/*"
-#  to = "https://timkeeler.net/:splat"
-#  status = 301
-#  force = true
+[[redirects]]
+  from = "https://festive-mirzakhani-8474d8.netlify.com/*"
+  to = "https://timkeeler.net/:splat"
+  status = 301
+  force = true
 
 [context.production.environment]
   NODE_VERSION = "12.16.1"
