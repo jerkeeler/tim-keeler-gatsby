@@ -6,6 +6,13 @@ module.exports = {
     siteUrl: `https://timkeeler.net`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-108069665-1',
+        anonymize: true,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
