@@ -5,14 +5,26 @@
 
 @tailwind utilities;
 
-.markdown > p {
-  @apply my-10;
+.markdown {
+  & > p {
+    @apply my-10;
 
-  &:first-child {
-    @apply mb-10 mt-0;
+    &:first-child {
+      @apply mb-10 mt-0;
+    }
+
+    &:last-child {
+      @apply mb-0 mt-10;
+    }
   }
 
-  &:last-child {
-    @apply mb-0 mt-10;
+  & a {
+    @apply text-primary underline;
+
+    &:hover {
+      @apply text-primary-lighter;
+    }
   }
 }
+
+

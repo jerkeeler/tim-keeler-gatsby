@@ -22,8 +22,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#042828`,
+        theme_color: `#0a4242`,
         display: `minimal-ui`,
         icon: `src/images/tk_icon.png`, // This path is relative to the root of the site.
       },
@@ -36,7 +36,12 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/contact/success`],
+      },
+    },
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {

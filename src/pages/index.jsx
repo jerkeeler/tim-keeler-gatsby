@@ -7,7 +7,7 @@ import SEO from '../components/SEO';
 const Button = ({ text }) => (
   <Link
     to={`/${text.toLowerCase()}/`}
-    className="w-64 m-8 z-10 px-24 py-4 text-center font-light relative
+    className="w-64 m-4 md:m-8 lg:ml-32 z-10 px-24 py-4 text-center font-light relative
     border-white text-white border-solid border-2 transform hover:scale-110
     transition duration-150"
   >
@@ -30,7 +30,7 @@ const IndexPage = () => {
 
   return (
     <div
-      className="h-screen overflow-hidden items-center flex justify-center
+      className="h-screen overflow-hidden flex items-center md:items-baseline justify-center
     flex-col"
     >
       <SEO title="Conductor, Countertenor" />
@@ -38,7 +38,12 @@ const IndexPage = () => {
         className="h-screen top-0 left-0 w-full z-0 fixed"
         fluid={data.bwHeadshot.childImageSharp.fluid}
         style={{ position: 'fixed' }}
-        // imgStyle={{ height: '100%' }}
+        imgStyle={{
+          height: 'auto',
+          width: 'auto',
+          minHeight: '100%',
+          minWidth: '100%',
+        }}
       />
       <Button text="About" />
       <Button text="Media" />
