@@ -4,7 +4,7 @@
   command = "npm run build"
 
 [[redirects]]
-  from = "https://festive-mirzakhani-8474d8.netlify.com/*"
+  from = "https://timkeeler.netlify.com/*"
   to = "https://timkeeler.net/:splat"
   status = 301
   force = true
