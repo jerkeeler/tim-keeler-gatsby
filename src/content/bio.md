@@ -1,6 +1,6 @@
 ---
 ---
-Dr. Tim Keeler is music director of the San Francisco-based, GRAMMY® award-winning vocal ensemble [Chanticleer](https://www.chanticleer.org/). Performing nearly 100 concerts every year all over the world, Chanticleer has been a staple of the American choral sound for over 40 years.
+Dr. Tim Keeler is music director of the San Francisco-based, GRAMMY® award-winning vocal ensemble [Chanticleer](https://www.chanticleer.org/). Performing nearly 100 concerts every year all over the world, Chanticleer has been a staple of the American choral sound for over 45 years.
 
 Prior to moving to San Francisco, Tim forged a career as an active conductor, singer, and educator. He has performed with [New York Polyphony](http://newyorkpolyphony.com/), [The Clarion Choir](http://clarionsociety.org/), the [Choir of Trinity Wall Street](https://www.trinitywallstreet.org/), and sang with Chanticleer for their 2017-2018 season. He has also performed frequently as a soloist, appearing regularly in the Bach Vespers series at [Holy Trinity Lutheran Church](http://www.holytrinitynyc.org/bach-vespers/) in New York City, as well as with [TENET](https://tenet.nyc/), New York's preeminent early music ensemble. An avid proponent of new and challenging repertoire, Tim remains a core member of [Ekmeles](http://ekmeles.com/), a vocal ensemble based in New York City and dedicated to contemporary, avant-garde, and infrequently-performed vocal repertoire.
 
